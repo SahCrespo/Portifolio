@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans serif;
+  color: #141414;
+  text-decoration: none;
+  list-style: none;
+
+}
+body{
+  margin-bottom: 1000px;
+}
+
+img{
+  max-width: 100%;
+  display: block;
+}
+
+.subtitulo{
+  font-size: 7rem;
+  font-weight: 700;
+  word-break: break-all;
+  line-height: 1;
+  text-transform: uppercase;
+  max-width: 4ch;
+}
+
+@media (max-width:1000px){
+  .subtitulo{
+    font-size: 5.5rem;
+    max-width: initial;
+  }
+}
+
+@media (max-width:810px){
+  .subtitulo{
+    font-size: 3rem;
+  }
+}
